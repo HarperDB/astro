@@ -22,8 +22,8 @@ A [Harper Component](https://docs.harperdb.io/docs/developers/components) for ru
 2. Create a `config.yaml` in the root of the Astro app containing:
    ```yaml
    '@harperdb/astro':
-   	package: '@harperdb/astro'
-   	files: './'
+     package: '@harperdb/astro'
+     files: './'
    ```
 3. Run the application using Harper. For more information reference the [Harper Component documentation](https://docs.harperdb.io/docs/developers/components).
 
