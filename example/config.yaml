@@ -1,0 +1,3 @@
+'@harperdb/astro':
+  package: '@harperdb/astro'
+  files: './'

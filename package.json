@@ -1,0 +1,49 @@
+{
+	"name": "@harperdb/astro",
+	"type": "module",
+	"description": "A HarperDB Component for running Astro apps.",
+	"keywords": [
+		"harperdb",
+		"harper",
+		"astro",
+		"distributed",
+		"web",
+		"applications",
+		"ssg",
+		"ssr"
+	],
+	"homepage": "https://github.com/HarperDB/astro",
+	"bugs": {
+		"url": "https://github.com/HarperDB/astro/issues",
+		"email": "support@harperdb.io"
+	},
+	"author": {
+		"name": "Harper",
+		"email": "support@harperdb.io"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HarperDB/astro.git"
+	},
+	"version": "0.0.1",
+	"license": "MIT",
+	"files": [
+		"config.yaml",
+		"extension.js"
+	],
+	"scripts": {
+		"format": "prettier .",
+		"lint": "eslint ."
+	},
+	"dependencies": {
+		"serve-static": "^1.16.2"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.21.0",
+		"@harperdb/code-guidelines": "^0.0.2",
+		"eslint": "^9.21.0",
+		"globals": "^16.0.0",
+		"prettier": "^3.5.3"
+	},
+	"prettier": "@harperdb/code-guidelines/prettier"
+}

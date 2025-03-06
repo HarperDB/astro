@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+export const prerender = false;
+
+const number = Math.random();
+---
+<Layout>
+	<h1>SSR Page</h1>
+	<p>Random Number: {number}</p>
+</Layout>
